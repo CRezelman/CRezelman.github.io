@@ -1,0 +1,75 @@
+.body {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+
+    margin-bottom: 48px;
+}
+
+td, th {
+    align-content: flex-start;
+    border-right: 2px solid #e2e2e2;
+    border-left: 2px solid #e2e2e2;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.inline .text {
+    position: relative;
+    right: 10px;
+}
+
+
+.inline .square-blue {
+    background-color: var(--blue);
+    position: relative;
+    height: 10px;
+    width: 10px;
+    right: calc(16px + 1px + 5px)
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.list {
+    margin: 0;
+    font-size: 14px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 32px;
+}
+
+.skill {
+    width: calc(50% - 16px);
+}
+
+.progress-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #cae3ff;
+}
+  
+.progress {
+    height: inherit;
+    background-color: var(--blue);
+    transition: 1s cubic-bezier(1,0,0,1);
+}

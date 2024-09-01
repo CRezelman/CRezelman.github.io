@@ -1,0 +1,17 @@
+:root {
+  --blue: #3e94e4
+}
+body {
+    height: 100dvh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Nunito Sans';
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 21cm;
+    margin: auto;
+}
